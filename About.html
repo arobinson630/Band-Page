@@ -13,36 +13,39 @@
 </head>
 
 <body>
-
-    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-        <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+    <div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle></button>
         <div class="title-bar-title">Menu</div>
-      </div>
-      
-      <div class="top-bar" id="responsive-menu">
+    </div>
+
+    <div class="top-bar" id="example-animated-menu" data-animate="hinge-in-from-top spin-out">
         <div class="top-bar-left">
-          <ul class="dropdown menu" data-dropdown-menu>
-            <li class="menu-text">Site Title</li>
-            <li class="has-submenu">
-              <a href="#0">One</a>
-              <ul class="submenu menu vertical" data-submenu>
-                <li><a href="#0">One</a></li>
-                <li><a href="#0">Two</a></li>
-                <li><a href="#0">Three</a></li>
-              </ul>
-            </li>
-            <li><a href="#0">Two</a></li>
-            <li><a href="#0">Three</a></li>
-          </ul>
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li class="menu-text">About Us</li>
+                <li>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About Us">About Us</a></li>
+                        <li><a href="#Music Videos">Music Videos</a></li>
+                        <li><a href="#Discography">Discography</a></li>
+                        <li><a href="#Tour">Tour</a></li>
+                    </ul>
+                </li>
+
+            </ul>
         </div>
-        <div class="top-bar-right">
-          <ul class="menu">
-            <li><input type="search" placeholder="Search"></li>
-            <li><button type="button" class="button">Search</button></li>
-          </ul>
-        </div>
-      </div>
-    <img src="Images/Band.jpeg" alt="band">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).foundation();
+    </script>
+
+    
+    <img src="Images/Band.jpeg" alt="band" width="auto" height="auto">
 
     ><p>Linkin Park is an American rock band from Agoura Hills, California. The band's current lineup comprises
         vocalist/rhythm guitarist/keyboardist Mike Shinoda, lead guitarist Brad Delson, bassist Dave Farrell,
@@ -75,6 +78,12 @@
         as "The Biggest Rock Band in the World Right Now" by Kerrang!.</p>
     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js"
         crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+        <script>
+             $(document).foundation();
+           </script>
 </body>
 
 </html>
