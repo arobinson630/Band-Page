@@ -3,3 +3,7 @@
 body {
     background-color: rgb(161, 167, 168);
   }
+  .video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
