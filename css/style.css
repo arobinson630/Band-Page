@@ -1,9 +1,28 @@
-
-
 body {
-    background-color: rgb(161, 167, 168);
-  }
-  .video {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-  }
+  background-color: rgb(161, 167, 168);
+}
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+ .main{
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+main > h1, p, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
